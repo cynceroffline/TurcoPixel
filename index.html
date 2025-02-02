@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TurcoPixel</title>
+    <style>
+        body {
+            background-color: rgb(27, 27, 27);
+            color: rgb(255, 255, 255);
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+        }
+        h1 {
+            margin-top: 30px;
+            font-size: 52px;
+            text-align: left;
+            margin-left: 10%;
+            margin-bottom: -10px;
+        }
+        h2 {
+            color: #fff;
+            text-align: left;
+            margin-left: 10%;
+            font-size: 14px;
+        }
+        .separator {
+            width: 80%;
+            height: 2px;
+            background-color: gray;
+            margin: 0px auto;
+        }
+        .info-box {
+            background-color: rgb(40, 40, 40);
+            align-items: center;
+            padding: 10px;
+            margin: 10px auto;
+            width: 75%;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+        }
+        .search-box {
+            width: 100%;
+            margin: 20px auto;
+            text-align: center;
+        }
+        .search-box input[type="text"] {
+            width: 75%;
+            padding: 10px;
+            height: 20px;
+            border-radius: 10px;
+            border: none;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+        }
+        footer {
+            background-color: rgb(27, 27, 27);
+            color: gray;
+            text-align: center;
+            padding: 10px 0;
+            position: absolute;
+            bottom: 0;
+            width: 100%;
+        }
+        @media (max-width: 600px) {
+            h1 {
+                font-size: 36px;
+            }
+            h2 {
+                font-size: 10px;
+            }
+            .info-box {
+                width: 70%;
+                padding: 15px;
+            }
+            .search-box {
+                margin-left: 9%;
+                width: 80%;
+            }
+            .search-box input[type="text"] {
+                padding: 10px;
+            }
+            footer {
+                position: fixed;
+                bottom: 0;
+                left: 0;
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <h1>TurcoPixel</h1>
+    <h2>Yazılıma yeni başlayanlar için<br>kapsamlı bir rehber projesi</h2>
+    <div class="separator"></div>
+    <div class="search-box">
+        <input type="text" placeholder="Arama yapın... (şuan aktif değil)">
+    </div>
+    <div class="separator"></div>
+    <div class="info-box">
+        <h3>Biz Kimiz?</h3>
+        <p><strong>TurcoPixel</strong>, özellikle yazılımla yeni başlayacak
+            insanlar için kapsamlı bir rehber projesidir. Bu proje, çeşitli
+            yazılım dilleri ve teknolojileri hakkında bilgi sahibi olmanızı
+            sağlamak için tek bir geliştirici olan Servet Kurt tarafından
+            herhangi bir kar amacı güdülmeden hazırlanmakta ve yayınlanmaktadır.
+            <br><br> Şu anda hosting olarak GitHub Pages kullansak bile en yakın
+            zamanda standartlara uygun bir domain'e geçiş yapacağız.
+    </div>
+    <div class="info-box">
+        <h3>Neler Sunuyoruz, Sunacağız?</h3>
+        <p>Sitemiz, ana olarak Python, HTML, C++, GameMaker Language (GML) üzerine yoğunlaşan, giriş seviyelerinde
+        olabildiğince basit ve anlaşılır anlatımların yanı sıra ileri düzey öğretici ve rehberlerde de bir o kadar
+        detaylı ve anlaşılır açıklamalar sunmaktadır.
+            <br><br> Ana hedefimiz, sitemizdeki rehber ve öğreticileri tamamlayan kişilerin, karmaşık sayılabilecek
+            kodları okuyabilen ve basit oyun ve araç tarzı programlar yazabilen bir seviyeye ulaşmalarını sağlamaktır.
+            <br><br><strong>Sitemizin tam olarak kullanıma açık hale gelme tarihini 2025 Yazı olarak hedefliyoruz.</strong>
+        </p>
+    </div>
+    <footer>
+        &copy; 2025 TurcoPixel. Tüm hakları saklıdır.
+    </footer>
+</body>
+</html>
+
